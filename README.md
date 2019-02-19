@@ -8,3 +8,4 @@
 * [PHP函数知识点整理](php/PHP函数知识点整理.md)  
 * [PHP运算符知识点整理](php/PHP运算符知识点整理.md)  
 * [PHP5.5 ~ PHP7.2 新特性整理](php/PHP5.5 ~ PHP7.2 新特性整理.md)  
+* [编译安装PHP7及扩展](php/编译安装PHP7及扩展.md)  
