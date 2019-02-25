@@ -11,3 +11,7 @@
 * [PHP深入了解引用](php/PHP深入了解引用.md)  
 * [PHP5.5~PHP7.2 新特性整理](php/PHP5.5~PHP7.2 新特性整理.md)  
 * [编译安装PHP7及扩展](php/编译安装PHP7及扩展.md)  
+
+### [Redis]
+
+* [Redis学习笔记 - 数据类型与API（1）Key](php/Redis学习笔记-数据类型与API（1）Key.md) 
