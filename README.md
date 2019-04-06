@@ -45,6 +45,10 @@
 
 * [Linux（CentOS）服务管理](linux/Linux（CentOS）服务管理.md) 
 
+#### Linux进程管理
+
+* [Linux进程管理（1）- 查看进程：ps,pstree,top,htop,bg,fg,jobs](linux/Linux进程管理（1）-%20查看进程：ps,pstree,top,htop,bg,fg,jobs.md) 
+
 ### [网络](网络/)
 
 * [OSI七层模型与TCP-IP五层模型简述](网络/OSI七层模型与TCP-IP五层模型简述.md) 
