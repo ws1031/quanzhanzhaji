@@ -27,5 +27,5 @@
 
 ### [七牛云](qiniu/)
 
-* [Nginx + Lets'encrypt 实现HTTPS访问七牛资源](qiniu/Nginx%20+%20Lets'encrypt%20实现HTTPS访问七牛资源.md) 
 * [为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS](qiniu/为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS.md) 
+* [Nginx + Lets'encrypt 实现HTTPS访问七牛资源](qiniu/Nginx%20+%20Lets'encrypt%20实现HTTPS访问七牛资源.md) 
