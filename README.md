@@ -12,7 +12,7 @@
 * [PHP5.5 \~ PHP7.2 新特性整理](php/PHP5.5~PHP7.2新特性整理.md)  
 * [编译安装PHP7及扩展](php/编译安装PHP7及扩展.md)  
 
-### [Redis]
+### [Redis](redis/)
 
 * [Redis学习笔记 - 数据类型与API（1）Key](redis/Redis学习笔记-数据类型与API（1）Key.md) 
 * [Redis学习笔记 - 数据类型与API（2）String](redis/Redis学习笔记-数据类型与API（2）String.md) 
@@ -24,3 +24,8 @@
 * [Redis学习笔记 - HyperLogLog](redis/Redis学习笔记-HyperLogLog.md) 
 * [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
 * [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
+
+### [七牛云](qiniu/)
+
+* [Nginx + Lets'encrypt 实现HTTPS访问七牛资源](qiniu/Nginx%20+%20Lets'encrypt%20实现HTTPS访问七牛资源.md) 
+* [为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS](qiniu/为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS.md) 
