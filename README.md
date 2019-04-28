@@ -25,6 +25,17 @@
 * [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
 * [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
 
+### [Linus](linux/)
+
+#### Linux 用户及权限管理
+
+* [Linux用户和用户组管理](linux/Linux用户和用户组管理.md) 
+* [Linux权限管理（1）基本权限](linux/Linux权限管理（1）基本权限.md) 
+* [Linux权限管理（2）ACL权限](linux/Linux权限管理（2）ACL权限.md) 
+* [Linux权限管理（3）Set UID权限、Set GID权限、Sticky BIT权限、chattr权限](linux/Linux权限管理（3）Set%20UID权限、Set%20GID权限、Sticky%20BIT权限、chattr权限.md) 
+* [Linux权限管理（4）sudo权限](linux/Linux权限管理（4）sudo权限.md) 
+
+
 ### [七牛云](qiniu/)
 
 * [为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS](qiniu/为七牛云存储空间绑定自定义域名，并使用七牛云提供的免费SSL证书，将自定义加名升级为HTTPS.md) 
