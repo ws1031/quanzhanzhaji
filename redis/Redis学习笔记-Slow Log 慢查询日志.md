@@ -1,3 +1,6 @@
+Redis学习笔记-Slow Log 慢查询日志
+---
+
 ## 什么是 SLOW LOG
 
 #### 1. Slow log 是 Redis 用来记录查询执行时间的日志系统。
