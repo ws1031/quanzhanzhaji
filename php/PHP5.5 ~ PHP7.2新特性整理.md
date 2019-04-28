@@ -1,4 +1,4 @@
-PHP6.5 ~ PHP7.2 新特性整理
+PHP5.5 ~ PHP7.2 新特性整理
 ---
 
 > 官方文档：http://php.net/manual/zh/appendices.php

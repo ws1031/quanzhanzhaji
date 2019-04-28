@@ -1,3 +1,6 @@
+PHP变量的引用赋值与传值赋值
+---
+
 ## 一、使用 [memory_get_usage()](http://php.net/manual/zh/function.memory-get-usage.php) 查看PHP内存使用量
 
 ### 1. 传值赋值
