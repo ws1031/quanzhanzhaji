@@ -27,13 +27,24 @@
 
 ### [Linus](linux/)
 
-#### Linux 用户及权限管理
+#### Linux用户及权限管理
 
 * [Linux用户和用户组管理](linux/Linux用户和用户组管理.md) 
 * [Linux权限管理（1）基本权限](linux/Linux权限管理（1）基本权限.md) 
 * [Linux权限管理（2）ACL权限](linux/Linux权限管理（2）ACL权限.md) 
 * [Linux权限管理（3）Set UID权限、Set GID权限、Sticky BIT权限、chattr权限](linux/Linux权限管理（3）Set%20UID权限、Set%20GID权限、Sticky%20BIT权限、chattr权限.md) 
 * [Linux权限管理（4）sudo权限](linux/Linux权限管理（4）sudo权限.md) 
+
+#### Linux软件管理
+
+* [Linux（CentOS）软件管理（1）- RPM包管理](linux/Linux（CentOS）软件管理（1）-%20RPM包管理.md) 
+* [Linux（CentOS）软件管理（2）- yum 在线安装](linux/Linux（CentOS）软件管理（2）-%20yum在线安装.md)
+* [Linux（CentOS）软件管理（3）- 源码包安装](linux/Linux（CentOS）软件管理（3）-%20源码包安装.md) 
+
+#### Linux服务管理
+
+* [Linux（CentOS）服务管理](linux/Linux（CentOS）服务管理.md) 
+
 
 
 ### [七牛云](qiniu/)
