@@ -25,7 +25,7 @@
 * [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
 * [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
 
-### [Linus](linux/)
+### [Linux](linux/)
 
 #### Linux用户及权限管理
 

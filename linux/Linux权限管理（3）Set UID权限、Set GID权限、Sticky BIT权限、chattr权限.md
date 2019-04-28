@@ -1,3 +1,6 @@
+Linux权限管理（3）Set UID权限、Set GID权限、Sticky BIT权限、chattr权限
+---
+
 > SUID权限、SGID权限、SBIT权限 都属于极其不安全的权限，这里只是作为了解学习，在生产环境尽量不去设置这些权限！
 
 ## 一、Set UID权限（SUID权限）
