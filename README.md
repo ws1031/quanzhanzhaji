@@ -48,6 +48,11 @@
 #### Linux进程管理
 
 * [Linux进程管理（1）- 查看进程：ps,pstree,top,htop,bg,fg,jobs](linux/Linux进程管理（1）-%20查看进程：ps,pstree,top,htop,bg,fg,jobs.md) 
+* [Linux进程管理（2）- 终止进程：kill,killall,pkill](linux/Linux进程管理（2）-%20终止进程：kill,killall,pkill.md) 
+
+#### Linux网络管理
+
+* [Linux网络管理（1）- 网络配置文件](linux/Linux网络管理（1）-%20网络配置文件.md)
 
 ### [网络](网络/)
 
