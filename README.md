@@ -53,6 +53,7 @@
 #### Linux网络管理
 
 * [Linux网络管理（1）- 网络配置文件](linux/Linux网络管理（1）-%20网络配置文件.md)
+* [Linux网络管理（2）- 网络环境查看命令：ifconfig、ifup、ifdown、route、netstat、ss](linux/Linux网络管理（2）-%20网络环境查看命令：ifconfig、ifup、ifdown、route、netstat、ss.md)
 
 ### [网络](网络/)
 
