@@ -55,6 +55,7 @@
 * [Linux网络管理（1）- 网络配置文件](linux/Linux网络管理（1）-%20网络配置文件.md)
 * [Linux网络管理（2）- 网络环境查看命令：ifconfig、ifup、ifdown、route、netstat、ss](linux/Linux网络管理（2）-%20网络环境查看命令：ifconfig、ifup、ifdown、route、netstat、ss.md)
 * [Linux网络管理（3）- DNS的正、反解查询命令：host、nslookup、dig](linux/Linux网络管理（3）-%20DNS的正、反解查询命令：host、nslookup、dig.md)
+* [Linux网络管理（4）- 网络测试命令：ping、telnet、traceroute、tcpdump](Linux网络管理（4）-%20网络测试命令：ping、telnet、traceroute、tcpdump.md)
 
 ### [网络](网络/)
 
