@@ -1,4 +1,5 @@
-# Linux 网络管理 - DNS的正、反解查询命令：host、nslookup、dig
+Linux 网络管理 - DNS的正、反解查询命令：host、nslookup、dig
+---
 
 ## 一、host
 

@@ -1,3 +1,6 @@
+Linux进程管理（1）- 查看进程：ps,pstree,top,htop,bg,fg,jobs
+---
+
 ## 一、进程管理的作用
 
 * 判断服务器健康状态

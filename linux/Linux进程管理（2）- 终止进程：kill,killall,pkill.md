@@ -1,3 +1,6 @@
+Linux进程管理（2）- 终止进程：kill,killall,pkill
+---
+
 ## 一、`kill` 命令
 
     根据进程ID终止指定的进程
