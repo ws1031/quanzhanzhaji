@@ -62,6 +62,7 @@
 * [Linux Shell编程（1）- Bash 的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号](Linux%20Shell编程（1）-%20Bash%20的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号)
 * [Linux Shell编程（2）- Bash 变量](Linux%20Shell编程（2）-%20Bash%20变量)
 * [Linux Shell编程（3）- Shell 运算](Linux%20Shell编程（3）-%20Shell%20运算)
+* [Linux Shell编程（4）- 环境变量配置文件.md](Linux%20Shell编程（4）-%20环境变量配置文件.md)
 
 ### [网络](网络/)
 
