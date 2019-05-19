@@ -67,6 +67,7 @@
 * [Linux Shell编程（6）- 字符操作命令：cut、printf、awk、sed、sort、wc](Linux%20Shell编程（6）-%20字符操作命令：cut、printf、awk、sed、sort、wc.md)
 * [Linux Shell编程（7）- 流程控制语句（一）条件判断式语句](Linux%20Shell编程（7）-%20流程控制语句（一）条件判断式语句)
 * [Linux Shell编程（8）- 流程控制语句（二）分支条件语句：if、case](Linux%20Shell编程（8）-%20流程控制语句（二）分支条件语句：if、case)
+* [Linux Shell编程（9）- 流程控制语句（三）循环语句：for、while、until](Linux%20Shell编程（9）-%20流程控制语句（三）循环语句：for、while、until)
 
 
 ### [网络](网络/)
