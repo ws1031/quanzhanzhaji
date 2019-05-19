@@ -65,6 +65,8 @@
 * [Linux Shell编程（4）- 环境变量配置文件.md](Linux%20Shell编程（4）-%20环境变量配置文件.md)
 * [Linux Shell编程（5）- 正则表达式](Linux%20Shell编程（5）-%20正则表达式.md)
 * [Linux Shell编程（6）- 字符操作命令：cut、printf、awk、sed、sort、wc](Linux%20Shell编程（6）-%20字符操作命令：cut、printf、awk、sed、sort、wc.md)
+* [Linux Shell编程（7）- 流程控制语句（一）条件判断式语句](Linux%20Shell编程（7）-%20流程控制语句（一）条件判断式语句)
+
 
 ### [网络](网络/)
 
