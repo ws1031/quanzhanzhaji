@@ -58,6 +58,11 @@
 * [Linux网络管理（3）- DNS的正、反解查询命令：host、nslookup、dig](linux/Linux网络管理（3）-%20DNS的正、反解查询命令：host、nslookup、dig.md)
 * [Linux网络管理（4）- 网络测试命令：ping、telnet、traceroute、tcpdump](Linux网络管理（4）-%20网络测试命令：ping、telnet、traceroute、tcpdump.md)
 
+
+#### **Linux 文件操作**
+
+* [Linux文档内容查阅命令总结 - cat,tac,nl,more,less,head,tail,od](Linux文档内容查阅命令总结%20-%20cat,tac,nl,more,less,head,tail,od)
+
 #### **Linux Shell 编程**
 
 * [Linux Shell编程（1）- Bash 的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号](Linux%20Shell编程（1）-%20Bash%20的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号.md)
