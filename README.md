@@ -62,7 +62,7 @@
 #### **Linux 文件操作**
 
 * [Linux文档内容查阅命令总结 - cat,tac,nl,more,less,head,tail,od](linux/Linux文档内容查阅命令总结%20-%20cat,tac,nl,more,less,head,tail,od)
-* [Linux搜索命令总结 - whereis,which,locate,find,grep](linux/Linux搜索命令总结 - whereis,which,locate,find,grep)
+* [Linux搜索命令总结 - whereis,which,locate,find,grep](linux/Linux搜索命令总结%20-%20whereis,which,locate,find,grep)
 
 #### **Linux Shell 编程**
 
