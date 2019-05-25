@@ -58,11 +58,11 @@
 * [Linux网络管理（3）- DNS的正、反解查询命令：host、nslookup、dig](linux/Linux网络管理（3）-%20DNS的正、反解查询命令：host、nslookup、dig.md)
 * [Linux网络管理（4）- 网络测试命令：ping、telnet、traceroute、tcpdump](linux/Linux网络管理（4）-%20网络测试命令：ping、telnet、traceroute、tcpdump.md)
 
-
 #### **Linux 文件操作**
 
 * [Linux文档内容查阅命令总结 - cat,tac,nl,more,less,head,tail,od](linux/Linux文档内容查阅命令总结%20-%20cat,tac,nl,more,less,head,tail,od)
 * [Linux搜索命令总结 - whereis,which,locate,find,grep](linux/Linux搜索命令总结%20-%20whereis,which,locate,find,grep)
+* [Linux打包压缩命令 - zip,gzip,bzip2,tar](linux/Linux打包压缩命令%20-%20zip,gzip,bzip2,tar)
 
 #### **Linux Shell 编程**
 
