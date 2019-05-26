@@ -30,7 +30,7 @@
 #### **Linux用户及权限管理**
 
 * [Linux用户和用户组管理](linux/Linux用户和用户组管理.md) 
-* [Linux用户登录查看命令总结 - w,who,last,lastlog](linux/Linux用户登录查看命令总结%20-%20w,who,last,lastlog)
+* [Linux用户登录查看命令总结 - w,who,last,lastlog](linux/Linux用户登录查看命令总结%20-%20w,who,last,lastlog.md)
 * [Linux权限管理（1）基本权限](linux/Linux权限管理（1）基本权限.md) 
 * [Linux权限管理（2）ACL权限](linux/Linux权限管理（2）ACL权限.md) 
 * [Linux权限管理（3）Set UID权限、Set GID权限、Sticky BIT权限、chattr权限](linux/Linux权限管理（3）Set%20UID权限、Set%20GID权限、Sticky%20BIT权限、chattr权限.md) 
@@ -60,26 +60,27 @@
 
 #### Linux系统管理
 
-* [Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof.md](Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof.md.md)
+* [Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof](Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof.md)
+* [Linux系统定时任务：crontab,anacron](Linux系统定时任务：crontab,anacron.md)
 
 #### **Linux文件操作**
 
 * [Linux文档内容查阅命令总结 - cat,tac,nl,more,less,head,tail,od](linux/Linux文档内容查阅命令总结%20-%20cat,tac,nl,more,less,head,tail,od.md)
 * [Linux搜索命令总结 - whereis,which,locate,find,grep](linux/Linux搜索命令总结%20-%20whereis,which,locate,find,grep.md)
 * [Linux打包压缩命令 - zip,gzip,bzip2,tar](linux/Linux打包压缩命令%20-%20zip,gzip,bzip2,tar.md)
-* [Linux链接命令 - ln.md](Linux/Linux链接命令%20-%20ln.md)
+* [Linux链接命令 - ln](Linux/Linux链接命令%20-%20ln.md)
 
 #### **Linux Shell 编程**
 
 * [Linux Shell编程（1）- Bash 的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号](linux/Linux%20Shell编程（1）-%20Bash%20的基本功能：别名、快捷键、历史命令、输出重定向、管道符、Shell中特殊符号.md)
 * [Linux Shell编程（2）- Bash 变量](linux/Linux%20Shell编程（2）-%20Bash%20变量.md)
 * [Linux Shell编程（3）- Shell 运算](linux/Linux%20Shell编程（3）-%20Shell%20运算.md)
-* [Linux Shell编程（4）- 环境变量配置文件.md](linux/Linux%20Shell编程（4）-%20环境变量配置文件.md)
+* [Linux Shell编程（4）- 环境变量配置文件](linux/Linux%20Shell编程（4）-%20环境变量配置文件.md)
 * [Linux Shell编程（5）- 正则表达式](Linux%20Shell编程（5）-%20正则表达式.md)
 * [Linux Shell编程（6）- 字符操作命令：cut、printf、awk、sed、sort、wc](linux/Linux%20Shell编程（6）-%20字符操作命令：cut、printf、awk、sed、sort、wc.md)
-* [Linux Shell编程（7）- 流程控制语句（一）条件判断式语句](linux/Linux%20Shell编程（7）-%20流程控制语句（一）条件判断式语句)
-* [Linux Shell编程（8）- 流程控制语句（二）分支条件语句：if、case](linux/Linux%20Shell编程（8）-%20流程控制语句（二）分支条件语句：if、case)
-* [Linux Shell编程（9）- 流程控制语句（三）循环语句：for、while、until](linux/Linux%20Shell编程（9）-%20流程控制语句（三）循环语句：for、while、until)
+* [Linux Shell编程（7）- 流程控制语句（一）条件判断式语句](linux/Linux%20Shell编程（7）-%20流程控制语句（一）条件判断式语句.md)
+* [Linux Shell编程（8）- 流程控制语句（二）分支条件语句：if、case](linux/Linux%20Shell编程（8）-%20流程控制语句（二）分支条件语句：if、case.md)
+* [Linux Shell编程（9）- 流程控制语句（三）循环语句：for、while、until](linux/Linux%20Shell编程（9）-%20流程控制语句（三）循环语句：for、while、until.md)
 
 
 
