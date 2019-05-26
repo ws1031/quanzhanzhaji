@@ -12,19 +12,6 @@
 * [PHP5.5 \~ PHP7.2 新特性整理](php/PHP5.5~PHP7.2新特性整理.md)  
 * [编译安装PHP7及扩展](php/编译安装PHP7及扩展.md)  
 
-### [Redis](redis/)
-
-* [Redis学习笔记 - 数据类型与API（1）Key](redis/Redis学习笔记-数据类型与API（1）Key.md) 
-* [Redis学习笔记 - 数据类型与API（2）String](redis/Redis学习笔记-数据类型与API（2）String.md) 
-* [Redis学习笔记 - 数据类型与API（3）List](redis/Redis学习笔记-数据类型与API（3）List.md) 
-* [Redis学习笔记 - 数据类型与API（4）Set](redis/Redis学习笔记-数据类型与API（4）Set.md) 
-* [Redis学习笔记 - 数据类型与API（5）Sorted Set](redis/Redis学习笔记-数据类型与API（5）Sorted%20Set.md) 
-* [Redis学习笔记 - 数据类型与API（6）Hash](redis/Redis学习笔记-数据类型与API（6）Hash.md)
-* [Redis学习笔记 - Bitmaps（位图）](redis/Redis学习笔记-Bitmaps（位图）.md) 
-* [Redis学习笔记 - HyperLogLog](redis/Redis学习笔记-HyperLogLog.md) 
-* [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
-* [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
-
 ### [Linux](linux/)
 
 #### **Linux用户及权限管理**
@@ -60,15 +47,15 @@
 
 #### Linux系统管理
 
-* [Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof](Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof.md)
-* [Linux系统定时任务：crontab,anacron](Linux系统定时任务：crontab,anacron.md)
+* [Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof](linux/Linux系统资源查看：vmstat,dmesg,free,uptime,uname,lsb_release,lsof.md)
+* [Linux系统定时任务：crontab,anacron](linux/Linux系统定时任务：crontab,anacron.md)
 
 #### **Linux文件操作**
 
 * [Linux文档内容查阅命令总结 - cat,tac,nl,more,less,head,tail,od](linux/Linux文档内容查阅命令总结%20-%20cat,tac,nl,more,less,head,tail,od.md)
 * [Linux搜索命令总结 - whereis,which,locate,find,grep](linux/Linux搜索命令总结%20-%20whereis,which,locate,find,grep.md)
 * [Linux打包压缩命令 - zip,gzip,bzip2,tar](linux/Linux打包压缩命令%20-%20zip,gzip,bzip2,tar.md)
-* [Linux链接命令 - ln](Linux/Linux链接命令%20-%20ln.md)
+* [Linux链接命令 - ln](linux/Linux链接命令%20-%20ln.md)
 
 #### **Linux Shell 编程**
 
@@ -76,13 +63,29 @@
 * [Linux Shell编程（2）- Bash 变量](linux/Linux%20Shell编程（2）-%20Bash%20变量.md)
 * [Linux Shell编程（3）- Shell 运算](linux/Linux%20Shell编程（3）-%20Shell%20运算.md)
 * [Linux Shell编程（4）- 环境变量配置文件](linux/Linux%20Shell编程（4）-%20环境变量配置文件.md)
-* [Linux Shell编程（5）- 正则表达式](Linux%20Shell编程（5）-%20正则表达式.md)
+* [Linux Shell编程（5）- 正则表达式](linux/Linux%20Shell编程（5）-%20正则表达式.md)
 * [Linux Shell编程（6）- 字符操作命令：cut、printf、awk、sed、sort、wc](linux/Linux%20Shell编程（6）-%20字符操作命令：cut、printf、awk、sed、sort、wc.md)
 * [Linux Shell编程（7）- 流程控制语句（一）条件判断式语句](linux/Linux%20Shell编程（7）-%20流程控制语句（一）条件判断式语句.md)
 * [Linux Shell编程（8）- 流程控制语句（二）分支条件语句：if、case](linux/Linux%20Shell编程（8）-%20流程控制语句（二）分支条件语句：if、case.md)
 * [Linux Shell编程（9）- 流程控制语句（三）循环语句：for、while、until](linux/Linux%20Shell编程（9）-%20流程控制语句（三）循环语句：for、while、until.md)
 
 
+### [Redis](redis/)
+
+* [Redis学习笔记 - 数据类型与API（1）Key](redis/Redis学习笔记-数据类型与API（1）Key.md) 
+* [Redis学习笔记 - 数据类型与API（2）String](redis/Redis学习笔记-数据类型与API（2）String.md) 
+* [Redis学习笔记 - 数据类型与API（3）List](redis/Redis学习笔记-数据类型与API（3）List.md) 
+* [Redis学习笔记 - 数据类型与API（4）Set](redis/Redis学习笔记-数据类型与API（4）Set.md) 
+* [Redis学习笔记 - 数据类型与API（5）Sorted Set](redis/Redis学习笔记-数据类型与API（5）Sorted%20Set.md) 
+* [Redis学习笔记 - 数据类型与API（6）Hash](redis/Redis学习笔记-数据类型与API（6）Hash.md)
+* [Redis学习笔记 - Bitmaps（位图）](redis/Redis学习笔记-Bitmaps（位图）.md) 
+* [Redis学习笔记 - HyperLogLog](redis/Redis学习笔记-HyperLogLog.md) 
+* [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
+* [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
+
+### [nginx](nginx/)
+
+* [Nginx基础篇（1）- Nginx的快速搭建和基本参数](Nginx基础篇（1）-%20Nginx的快速搭建和基本参数.md)
 
 ### [网络](网络/)
 
