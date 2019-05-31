@@ -85,8 +85,9 @@
 
 ### [nginx](nginx/)
 
-* [Nginx基础篇（1）- Nginx的快速搭建和基本参数](Nginx基础篇（1）-%20Nginx的快速搭建和基本参数.md)
-* [Nginx基础篇（2）- Nginx基本配置文件和变量详解](Nginx基础篇（2）-%20Nginx基本配置文件和变量详解.md)
+* [Nginx基础篇（1）- Nginx的快速搭建和基本参数](nginx/Nginx基础篇（1）-%20Nginx的快速搭建和基本参数.md)
+* [Nginx基础篇（2）- Nginx基本配置文件和变量详解](nginx/Nginx基础篇（2）-%20Nginx基本配置文件和变量详解.md)
+* [Nginx基础篇（3）- Nginx常用官方模块](nginx/Nginx基础篇（3）-%20Nginx常用官方模块.md)
 
 ### [网络](网络/)
 
