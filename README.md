@@ -91,6 +91,7 @@
 * [Nginx基础篇（4）- Nginx请求限制和访问控制](nginx/Nginx基础篇（4）-%20Nginx请求限制和访问控制.md)
 * [Nginx实践篇（1）- Nginx作为静态资源web服务 - 静态资源压缩](nginx/Nginx实践篇（1）-%20Nginx作为静态资源web服务%20-%20静态资源压缩.md)
 * [Nginx实践篇（2）- Nginx作为静态资源web服务 - 控制浏览器缓存、防盗链](nginx/Nginx实践篇（2）-%20Nginx作为静态资源web服务%20-%20控制浏览器缓存、防盗链.md)
+* [Nginx实践篇（3）- 跨域访问](nginx/Nginx实践篇（3）-%20跨域访问.md)
 
 ### [网络](网络/)
 
