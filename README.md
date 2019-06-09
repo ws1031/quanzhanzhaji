@@ -89,7 +89,7 @@
 * [Nginx基础篇（2）- Nginx基本配置文件和变量详解](nginx/Nginx基础篇（2）-%20Nginx基本配置文件和变量详解.md)
 * [Nginx基础篇（3）- Nginx常用官方模块](nginx/Nginx基础篇（3）-%20Nginx常用官方模块.md)
 * [Nginx基础篇（4）- Nginx请求限制和访问控制](nginx/Nginx基础篇（4）-%20Nginx请求限制和访问控制.md)
-* 
+* [Nginx实践篇（1）- Nginx作为静态资源web服务 - 静态资源压缩](Nginx实践篇（1）-%20Nginx作为静态资源web服务%20-%20静态资源压缩.md)
 
 ### [网络](网络/)
 
