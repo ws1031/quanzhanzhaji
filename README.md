@@ -94,6 +94,8 @@
 * [Nginx实践篇（3）- 跨域访问](nginx/Nginx实践篇（3）-%20跨域访问.md)
 * [Nginx实践篇（4）- Nginx代理服务 - 正向代理和反向代理](nginx/Nginx实践篇（4）-%20Nginx代理服务%20-%20正向代理和反向代理.md)
 * [Nginx实践篇（5）- Nginx代理服务 - 代理缓冲区、代理重新定义请求头、代理连接超时](nginx/Nginx实践篇（5）-%20Nginx代理服务%20-%20代理缓冲区、代理重新定义请求头、代理连接超时.md)
+* [【转】Nginx配置文件（nginx.conf）配置详解](nginx/【转】Nginx配置文件（nginx.conf）配置详解.md)
+
 
 ### [网络](网络/)
 
