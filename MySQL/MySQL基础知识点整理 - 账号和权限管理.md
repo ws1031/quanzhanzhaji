@@ -513,3 +513,11 @@ SHUTDOWN   |使用 `mysqladmin shutdown`（用来关闭MySQL）
 SUPER   |使用 `CHANGE MASTER`、`KILL`、`LOGS`、`PURGE`、`MASTER` 和 `SET GLOBAL`。还允许 `mysqladmin` 调试登录
 UPDATE   |使用 `UPDATE` 
 USAGE  | 无访问权限
+
+### 6. 权限控制流程
+
+最后附一张《MySQL性能调优与架构设计》中的权限控制流程图。
+
+以 `SELECT id,name FROM test.t4 where status = 'deleted';` 为例。
+
+![MySQL性能调优与架构设计-权限控制流程图](http://md.ws65535.top/xsj/2019_6_29_MySQL性能调优与架构设计-权限控制流程图.jpg)
