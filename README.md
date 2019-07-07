@@ -14,11 +14,11 @@
 * [PHP5.5 \~ PHP7.2 新特性整理](php/PHP5.5~PHP7.2新特性整理.md)  
 * [编译安装PHP7及扩展](php/编译安装PHP7及扩展.md)  
 
-### [MySQL](MySQL/)
+### [MySQL](mysql/)
 
-* [MySQL基础知识点整理 - 账号和权限管理](MySQL/MySQL基础知识点整理%20-%20账号和权限管理.md)
-* [MySQL基础知识点整理 - 存储引擎](MySQL/MySQL基础知识点整理%20-%20存储引擎.md)
-* [MySQL基础知识点整理 - 数据类型和数据表管理](MySQL/MySQL基础知识点整理%20-%20数据类型和数据表管理.md)
+* [MySQL基础知识点整理 - 账号和权限管理](mysql/MySQL基础知识点整理%20-%20账号和权限管理.md)
+* [MySQL基础知识点整理 - 存储引擎](mysql/MySQL基础知识点整理%20-%20存储引擎.md)
+* [MySQL基础知识点整理 - 数据类型和数据表管理](mysql/MySQL基础知识点整理%20-%20数据类型和数据表管理.md)
 
 ### [Linux](linux/)
 
@@ -91,7 +91,11 @@
 * [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
 * [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
 
-### [nginx](nginx/)
+### [Elasticsearch](elasticsearch/)
+
+* [Elasticsearch 及 IK 中文分词插件安装](elasticsearch/Elasticsearch%20及%20IK%20中文分词插件安装.md)
+
+### [Nginx](nginx/)
 
 * [Nginx基础篇（1）- Nginx的快速搭建和基本参数](nginx/Nginx基础篇（1）-%20Nginx的快速搭建和基本参数.md)
 * [Nginx基础篇（2）- Nginx基本配置文件和变量详解](nginx/Nginx基础篇（2）-%20Nginx基本配置文件和变量详解.md)
