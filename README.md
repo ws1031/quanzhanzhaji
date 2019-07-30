@@ -97,7 +97,8 @@
 ### [MongoDB](mongodb/)
 
 * [MongoDB学习笔记（1）- MongoDB简介、数据类型及帮助命令.md](mongodb/MongoDB学习笔记（1）-%20MongoDB简介、数据类型及帮助命令.md)
-* [MongoDB学习笔记（2）- Mongo Shell 中文档的增、删、改](MongoDB学习笔记（2）-%20Mongo%20Shell%20中文档的增、删、改)
+* [MongoDB学习笔记（2）- Mongo Shell 中文档的增、删、改](mongodb/MongoDB学习笔记（2）-%20Mongo%20Shell%20中文档的增、删、改.md)
+* [MongoDB学习笔记（3）- Mongo Shell 常用查询命令](mongodb/MongoDB学习笔记（3）-%20Mongo%20Shell%20常用查询命令.md)
 
 ### [Elasticsearch](elasticsearch/)
 
