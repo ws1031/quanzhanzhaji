@@ -95,7 +95,9 @@
 * [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
 
 ### [MongoDB](mongodb/)
+
 * [MongoDB学习笔记（1）- MongoDB简介、数据类型及帮助命令.md](mongodb/MongoDB学习笔记（1）-%20MongoDB简介、数据类型及帮助命令.md)
+* [MongoDB学习笔记（2）- Mongo Shell 中文档的增、删、改](MongoDB学习笔记（2）-%20Mongo%20Shell%20中文档的增、删、改)
 
 ### [Elasticsearch](elasticsearch/)
 
