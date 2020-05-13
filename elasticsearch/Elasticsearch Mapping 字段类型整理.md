@@ -1,7 +1,5 @@
-Elasticsearch Mapping 常见字段类型整理
+Elasticsearch7.X Mapping 常见字段类型整理
 ---
-
-> 官方文档：[字段数据类型](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-types.html#mapping-types)
 
 ## 一、核心数据类型
 
@@ -215,3 +213,9 @@ IP地址类型，存储 IPv4 和 IPv6 地址
 - 数组型数组：`[1, [2, 3]]` 等同于 `[1, 2, 3]`
 - 对象数组：`[{"name": "Mary", "age": 12}, {"name": "John", "age": 10}]`
 
+
+> **参考文献：**
+> 
+> 官方文档v7.6：[字段数据类型](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/mapping-types.html#mapping-types)
+> 《从Lucene到Elasticsearch全文检索实战》
+> 《Elasticsearch技术解析与实战》

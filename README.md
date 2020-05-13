@@ -103,6 +103,7 @@
 ### [Elasticsearch](elasticsearch/)
 
 * [Elasticsearch 及 IK 中文分词插件安装](elasticsearch/Elasticsearch%20及%20IK%20中文分词插件安装.md)
+* [Elasticsearch Mapping 字段类型整理](elasticsearch/Elasticsearch%20Mapping%20字段类型整理.md)
 
 ### [Nginx](nginx/)
 
