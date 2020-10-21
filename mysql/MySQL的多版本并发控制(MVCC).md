@@ -64,13 +64,13 @@ InnoDB 的叶子段存储了数据页，数据页中保存了行记录，而在�
 * db_trx_id：操作这个数据的事务 ID，也就是最后一个对该数据进行插入或更新的事务 ID。
 * db_roll_ptr：回滚指针，也就是指向这个记录的 Undo Log 信息。
  
-![InnoDB数据记录隐藏列](md.s1031.cn/xsj/2020_10_21_InnoDB数据记录隐藏列.png)
+![InnoDB数据记录隐藏列](http://md.s1031.cn/xsj/2020_10_21_innodb_leaf_node_segment.png)
 
 #### Undo Log
 
 InnoDB 将行记录快照保存在了 Undo Log 里，我们可以在回滚段中找到它们，如下图所示：
 
-![Undo Log回滚历史记录](md.s1031.cn/xsj/2020_10_21_Undo_Log回滚历史记录.png)
+![Undo Log回滚历史记录](http://md.s1031.cn/xsj/2020_10_21_undo_log.png)
 
 从图中能看到回滚指针将数据行的所有快照记录都通过链表的结构串联了起来，每个快照的记录都保存了当时的 db_trx_id，也是那个时间点操作这个数据的事务 ID。这样如果我们想要找历史快照，就可以通过遍历回滚指针的方式进行查找。
 
