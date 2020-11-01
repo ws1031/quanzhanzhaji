@@ -25,6 +25,7 @@
 * [MySQL基础知识点整理 - 事务](mysql/MySQL基础知识点整理%20-%20事务.md)
 * [MySQL逻辑架构 - SQL语句的执行都经历了哪些步骤](mysql/MySQL逻辑架构%20-%20SQL语句的执行都经历了哪些步骤.md)
 * [MySQL的多版本并发控制(MVCC)](mysql/MySQL的多版本并发控制(MVCC).md)
+* [MySQL索引都有哪些分类](mysql/MySQL索引都有哪些分类.md)
 
 ### [Linux](linux/)
 
