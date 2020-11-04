@@ -26,6 +26,7 @@
 * [MySQL逻辑架构 - SQL语句的执行都经历了哪些步骤](mysql/MySQL逻辑架构%20-%20SQL语句的执行都经历了哪些步骤.md)
 * [MySQL的多版本并发控制(MVCC)](mysql/MySQL的多版本并发控制(MVCC).md)
 * [MySQL索引都有哪些分类](mysql/MySQL索引都有哪些分类.md)
+* [MySQL Explain命令详解：type列详解及案例分析](mysql/MySQL%2Explain命令详解：type列详解及案例分析.md)
 
 ### [Linux](linux/)
 
@@ -96,7 +97,7 @@
 * [Redis学习笔记 - Bitmaps（位图）](redis/Redis学习笔记-Bitmaps（位图）.md) 
 * [Redis学习笔记 - HyperLogLog](redis/Redis学习笔记-HyperLogLog.md) 
 * [Redis学习笔记 - pipline（流水线、管道）](redis/Redis学习笔记-pipline（流水线、管道）.md) 
-* [Redis持久化 RDB和AOF）](redis/Redis持久化%20RDB和AOF.md) 
+* [Redis持久化 RDB和AOF](redis/Redis持久化%20RDB和AOF.md) 
 
 ### [MongoDB](mongodb/)
 
