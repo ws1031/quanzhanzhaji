@@ -22,7 +22,7 @@ HTTP 协议是 **Hyper Text Transfer Protocol（超文本传输协议）** 的�
 
 HTTP协议采用了请求/响应模型。客户端向服务器发送一个请求报文，请求报文包含请求的方法、URL、协议版本、请求首部和请求数据。服务器以一个状态行作为响应，响应的内容包括协议的版本、成功或者错误代码、服务器信息、响应首部和响应数据。
 
-![HTTP协议工作原理](md.s1031.cn/xsj/2021_1_4_Http_Request_&_Response.png)
+![HTTP协议工作原理](https://md.s1031.cn/xsj/2021_1_4_Http_Request_&_Response.png)
 
 ##### 客户端与服务器建立TCP连接
 
@@ -507,4 +507,4 @@ Proxy-Authenticate 首部需要与 `407 Proxy Authentication Required` 响应一
 
 ---
 
-![欢迎关注公众号](md.s1031.cn/xsj/2021_1_4_扫码_搜索联合传播样式-白色版.png)
+![欢迎关注公众号](https://md.s1031.cn/xsj/2021_1_4_扫码_搜索联合传播样式-白色版.png)
