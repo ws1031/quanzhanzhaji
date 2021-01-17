@@ -1,15 +1,17 @@
 MongoDB学习笔记（2）- Mongo Shell 中文档的增、删、改
 ---
 
+![](https://md.s1031.cn/xsj/2021_1_16_MongoDB封面.jpeg)
+
 > 本文所使用的MongoDB版本为 4.0.10
 ```
 > db.version();
 4.0.10
 ```
 
-## 一、插入文档
+### 一、插入文档
 
-### 1. 插入一个文档
+#### 1. 插入一个文档
 
     语法： db.<collection>.insert(document)
 
@@ -28,7 +30,7 @@ WriteResult({ "nInserted" : 1 })
 
 > 注： _id 字段是系统自动生成的，也可以自己指定任何类型的字，但值不能重复。
 
-### 2. 插入多个文档
+#### 2. 插入多个文档
 
     语法： db.<collection>.insert([ document1, document2, ..., documentN ])
 
@@ -60,7 +62,7 @@ BulkWriteResult({
 { "_id" : ObjectId("5d2f11b814077ad0dab139ca"), "username" : "Jack", "age" : 20 }
 ```
 
-## 二、删除数据 
+### 二、删除数据 
 
     语法： db.<collection>.remove(条件)
 
@@ -84,7 +86,7 @@ WriteResult({ "nRemoved" : 1 })
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-## 三、修改数据 
+### 三、修改数据 
 
     语法： update(条件，数据, 是否新增, 是否修改多条)
 
@@ -160,9 +162,9 @@ u.age = 22;    			                --> 在原记录基本上修改
 db.user.save(u) 或  db.user.update({ "_id" : 1 } , u)
 ```
 
-## 四、修改器的使用
+### 四、修改器的使用
 
-### 1. $inc : 加一个数字
+#### 1. $inc : 加一个数字
 
 把Tom的年龄加2
 ```
@@ -173,7 +175,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "age" : 12 }
 ```
 
-### 2. $set : 修改某一个字段，如果该字段不存在就增这个字段
+#### 2. $set : 修改某一个字段，如果该字段不存在就增这个字段
 
 修改Tom的电话号码为10086，如果没有这个字段就新增这个字段
 ```
@@ -186,7 +188,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 
 **修改数组**
 
-### 3. $push : 向数组中添加元素
+#### 3. $push : 向数组中添加元素
 
 向 Tom 的好友中添加一个好友 Jack。
 ```
@@ -197,7 +199,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "friend" : [ "Jack" ] }
 ```
 
-### 4. $each : 遍历操作元素
+#### 4. $each : 遍历操作元素
 
 向 Tom 的好友中批量添加好友 "Mary", "Jocker"。
 ```
@@ -208,7 +210,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "friend" : [ "Jack", "Mary", "Jocker" ] }
 ```
 
-### 5. $pop : 从数组的首或尾取出数据
+#### 5. $pop : 从数组的首或尾取出数据
 
 从abc的好友中删除最后一个好友
 
@@ -229,7 +231,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "friend" : [ "Mary" ] }
 ```
 
-### 6. $unset : 删除一个字段
+#### 6. $unset : 删除一个字段
 
 删除 Tom 的 friend 字段
 ```
@@ -256,3 +258,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
         "ok" : 1
 }
 ```
+
+---
+
+![欢迎关注公众号【全栈札记】](https://md.s1031.cn/xsj/2021_1_4_扫码_搜索联合传播样式-白色版.png)

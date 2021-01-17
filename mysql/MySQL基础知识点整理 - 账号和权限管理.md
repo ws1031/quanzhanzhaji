@@ -521,3 +521,9 @@ USAGE  | 无访问权限
 以 `SELECT id,name FROM test.t4 where status = 'deleted';` 为例。
 
 ![MySQL性能调优与架构设计-权限控制流程图](http://md.ws65535.top/xsj/2019_6_29_MySQL性能调优与架构设计-权限控制流程图.jpg)
+
+
+---
+
+
+![欢迎关注公众号【全栈札记】](https://md.s1031.cn/xsj/2021_1_4_扫码_搜索联合传播样式-白色版.png)

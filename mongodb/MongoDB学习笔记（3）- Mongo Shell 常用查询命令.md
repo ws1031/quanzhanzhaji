@@ -1,17 +1,19 @@
 MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 ---
 
+![](https://md.s1031.cn/xsj/2021_1_16_MongoDB封面.jpeg)
+
 > 本文所使用的MongoDB版本为 4.0.10
 ```
 > db.version();
 4.0.10
 ```
 
-## 一、find 命令进行简查询
+### 一、find 命令进行简查询
 
     find( 查询条件 ，返回的字段)， 
 
-### 1. 查询时返回所有字段
+#### 1. 查询时返回所有字段
 
 **db.user.find()  -->  查询user集合中所有的数据**
 ```
@@ -34,7 +36,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 2. 查询时只返回指定几个字段
+#### 2. 查询时只返回指定几个字段
 
 **db.user.find({}, {"username":1})  --> 列出所有人的 username 字段**
 ```
@@ -63,9 +65,9 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart" }
 ```
 
-## 二、常用操作符
+### 二、常用操作符
 
-### 1. $lt (<)
+#### 1. $lt (<)
 
 **查询年龄小于30岁的用户**
 ```
@@ -73,7 +75,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "age" : 12, "tel" : "10086" }
 ```
 
-### 2. $lte (<=)
+#### 2. $lte (<=)
 
 **查询年龄小于等于30岁的用户**
 ```
@@ -82,7 +84,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f102414077ad0dab139c7"), "username" : "Mary", "age" : 30 }
 ```
 
-### 3. $gt (>)
+#### 3. $gt (>)
 
 **查询年龄大于30岁的用户**
 ```
@@ -91,7 +93,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 4. $gte (>= )
+#### 4. $gte (>= )
 
 **查询年龄大于等于30岁的用户**
 ```
@@ -101,7 +103,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 5. $ne ( <> )
+#### 5. $ne ( <> )
 
 **查询年龄不等于30岁的用户**
 ```
@@ -111,7 +113,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 6. $and (AND)
+#### 6. $and (AND)
 
 **查询年龄大于10岁且小于40岁的用户**
 ```
@@ -120,7 +122,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f102414077ad0dab139c7"), "username" : "Mary", "age" : 30, "tel" : null }
 ```
 
-### 7. $or (OR)
+#### 7. $or (OR)
 
 **查询年龄小于20岁或者大于40岁的用户**
 
@@ -130,7 +132,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 8. $in (IN)
+#### 8. $in (IN)
 
 **查询年龄为 20, 30, 40 岁的用户**
 ```
@@ -139,7 +141,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f103414077ad0dab139c8"), "username" : "Martin", "age" : 40 }
 ```
 
-### 9. $not (NOT)
+#### 9. $not (NOT)
 
 **查询年龄不是 20, 40 岁的用户（$not）**
 
@@ -150,7 +152,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 10. $nin (NOT IN)
+#### 10. $nin (NOT IN)
 
 **查询年龄不是 20, 40 岁的用户**
 ```
@@ -160,7 +162,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 11. $mod (取模)
+#### 11. $mod (取模)
 
 **查询年龄对 4 取模余 2 的用户**
 ```
@@ -169,7 +171,7 @@ MongoDB学习笔记（3）- Mongo Shell 常用查询命令
 { "_id" : ObjectId("5d2f105414077ad0dab139c9"), "username" : "kart", "age" : 50 }
 ```
 
-### 12. $exists (存在)
+#### 12. $exists (存在)
 
 > $exists 用于判断键是否
 
@@ -207,7 +209,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 { "_id" : ObjectId("5d2f102414077ad0dab139c7"), "username" : "Mary", "age" : 30, "tel" : null }
 ```
 
-### 13. $where 
+#### 13. $where 
 
 > $where : 根据函数返回值来判断是否返回数据
 
@@ -228,7 +230,7 @@ db.user.find( { $where : function(){
 > 通过这个 $where 基本可以实现任意类型的查询。不过不到必要时候不要用这个方法，因为它的速度比一般查询要慢很多。
 
 
-## 三、使用正则查询
+### 三、使用正则查询
 
 **查找名字中含有 "art" 的记录**
 
@@ -246,9 +248,9 @@ db.user.find( { $where : function(){
 { "_id" : ObjectId("5d2f103414077ad0dab139c8"), "username" : "Martin", "age" : 40 }
 ```
 
-## 四、查询数组
+### 四、查询数组
 
-### 1. $all：判断某个数组类型字段包含的多个指定值时。
+#### 1. $all：判断某个数组类型字段包含的多个指定值时。
 
 **给 user 集合中的用户添加一些朋友，结果如下：**
 ```
@@ -266,7 +268,7 @@ db.user.find( { $where : function(){
 { "_id" : ObjectId("5d2f103414077ad0dab139c8"), "username" : "Martin", "age" : 40, "friend" : [ "Mary", "Jocker", "Kart" ] }
 ```
 
-### 2. $size：查询拥有指定元素个数的数组
+#### 2. $size：查询拥有指定元素个数的数组
 
 **取出 friend 数组中有3个值的记录**
 ```
@@ -274,7 +276,7 @@ db.user.find( { $where : function(){
 { "_id" : ObjectId("5d2f103414077ad0dab139c8"), "username" : "Martin", "age" : 40, "friend" : [ "Mary", "Jocker", "Kart" ] }
 ```
 
-### 3. $slice : 返回一个数组的子集
+#### 3. $slice : 返回一个数组的子集
 
 {$slice : 10}  --> 数组中的前10个
 {$slice : -10}  -->  数组中的后10个
@@ -287,9 +289,9 @@ db.user.find( { $where : function(){
 { "_id" : ObjectId("5d2f0a4714077ad0dab139c5"), "username" : "Tom", "age" : 12, "tel" : "10086", "friend" : [ "Mary", "Jocker", "Martin" ] }
 ```
 
-## 五、查询内嵌文档
+### 五、查询内嵌文档
 
-### 1. $elemMatch
+#### 1. $elemMatch
 
 如有这样的数据结构：
 有个comments字段，该字段是一个数组，每一项是一个内嵌的comment对象
@@ -364,3 +366,9 @@ db.user.find( { $where : function(){
 > db.blog.find ({"author": "Tom"}, { "comments" : { "$elemMatch" : { "score" : {"$gt" : 3}}} })
 { "_id" : ObjectId("5d31b1d24fd0d7ad0a1a1361"), "comments" : [ { "user" : "Martin", "score" : 6, "comment" : "I'm reading..." } ] }
 ```
+
+
+
+---
+
+![欢迎关注公众号【全栈札记】](https://md.s1031.cn/xsj/2021_1_4_扫码_搜索联合传播样式-白色版.png)
