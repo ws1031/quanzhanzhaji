@@ -32,6 +32,7 @@
 * [MySQL的多版本并发控制(MVCC)](mysql/MySQL的多版本并发控制(MVCC).md)
 * [MySQL索引都有哪些分类](mysql/MySQL索引都有哪些分类.md)
 * [MySQL Explain命令详解：type列详解及案例分析](mysql/MySQL%2Explain命令详解：type列详解及案例分析.md)
+* [MySQL为什么varchar字段用数字查用不到索引，而int字段用字符串查却能用到索引](mysql/MySQL为什么varchar字段用数字查用不到索引，而int字段用字符串查却能用到索引.md)
 
 ### [Linux](linux/)
 
