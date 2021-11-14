@@ -44,6 +44,7 @@
 * [Linux权限管理（2）ACL权限](linux/Linux权限管理（2）ACL权限.md) 
 * [Linux权限管理（3）Set UID权限、Set GID权限、Sticky BIT权限、chattr权限](linux/Linux权限管理（3）Set%20UID权限、Set%20GID权限、Sticky%20BIT权限、chattr权限.md) 
 * [Linux权限管理（4）sudo权限](linux/Linux权限管理（4）sudo权限.md) 
+* [明明有写权限，为什么还是不能修改文件？](linux/明明有写权限，为什么还是不能修改文件？.md) 
 
 #### **Linux软件管理**
 
