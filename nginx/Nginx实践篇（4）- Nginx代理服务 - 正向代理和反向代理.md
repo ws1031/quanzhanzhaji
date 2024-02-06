@@ -1,10 +1,10 @@
 ## 一、代理简介
 
 ### 1. 代理
-![代理](http://md.ws65535.top/xsj/2018_8_2_2018-07-17_173831.jpg)
+![代理](http://md.ws1031.cn/xsj/2018_8_2_2018-07-17_173831.jpg)
 
 ### 2. Nginx代理服务
-![Nginx代理服务](http://md.ws65535.top/xsj/2018_8_2_2018-07-17_174046.jpg)
+![Nginx代理服务](http://md.ws1031.cn/xsj/2018_8_2_2018-07-17_174046.jpg)
 
 ### 3. 正向代理和反向代理
 
@@ -12,11 +12,11 @@
 
 #### **正向代理代理的对象是客户端**
 
-![正向代理代理的对象是客户端](http://md.ws65535.top/xsj/2018_8_2_2018-07-17_174149.jpg)
+![正向代理代理的对象是客户端](http://md.ws1031.cn/xsj/2018_8_2_2018-07-17_174149.jpg)
 
 #### **反向代理代理的对象是服务端**
 
-![反向代理代理的对象是服务端](http://md.ws65535.top/xsj/2018_8_2_2018-07-17_174219.jpg)
+![反向代理代理的对象是服务端](http://md.ws1031.cn/xsj/2018_8_2_2018-07-17_174219.jpg)
 
 ### 4. Nginx代理模块 [ngx_http_proxy_module](http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass)
 
@@ -154,7 +154,7 @@ server {
 #### **2. nginx -s reload 重新载入nginx配置文件**
 #### **3. 在本地使用浏览器访问 `http://zx_proxy.ws65535.top/`，返回 `403 Forbidden`，说明访问被拒绝**
 
-![enter description here](http://md.ws65535.top/xsj/2018_8_3_2018-08-03_104422.jpg)
+![enter description here](http://md.ws1031.cn/xsj/2018_8_3_2018-08-03_104422.jpg)
 
 #### **4. 在服务器创建代理服务配置：`vim conf.d/zx_proxy.conf`**
 ```
@@ -176,8 +176,8 @@ server {
 
 * 控制面板 -> 网络和Internet -> 代理 -> 手动设置代理
 
-![enter description here](http://md.ws65535.top/xsj/2018_8_3_2018-08-03_112426.jpg)
+![enter description here](http://md.ws1031.cn/xsj/2018_8_3_2018-08-03_112426.jpg)
 
 #### **7. 设置代理后在本地使用浏览器访问 `http://zx_proxy.ws65535.top/`，可以正常访问**
 
-![enter description here](http://md.ws65535.top/xsj/2018_8_3_2018-08-03_112735.jpg)
+![enter description here](http://md.ws1031.cn/xsj/2018_8_3_2018-08-03_112735.jpg)

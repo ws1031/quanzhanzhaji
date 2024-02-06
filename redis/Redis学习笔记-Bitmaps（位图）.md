@@ -21,7 +21,7 @@ OK
 (integer) 1
 ```
 
-![bitmaps](http://md.ws65535.top/xsj/2018_7_9_973456235-5ac9f1839bda7_articlex.jpg)
+![bitmaps](http://md.ws1031.cn/xsj/2018_7_9_973456235-5ac9f1839bda7_articlex.jpg)
 
 ### 2. setbit key offset value
 * 给位图指定索引设置值，返回该索引位置的原始值
@@ -45,7 +45,7 @@ OK
 127.0.0.1:6379> get world
 "\x00\x00\x00\x00\x00\x00\x00"
 ```
-![](http://md.ws65535.top/xsj/2018_7_9_1240966541-5ac9f77d35855_articlex.jpg)
+![](http://md.ws1031.cn/xsj/2018_7_9_1240966541-5ac9f77d35855_articlex.jpg)
 
 ### 3. bitcount key [start end]
 * 获取位图指定范围（start到end，单位为字节，如果不指定就是获取全部）位值为1的个数。

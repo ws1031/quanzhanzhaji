@@ -18,7 +18,7 @@ HTTP协议版本|连接关系
 > HTTP请求建立在一次TCP连接的基础上。
 > 一次TCP连接至少可以产生一次HTTP请求，HTTP1.1版本以后，建立一次TCP连接可以发送多次HTTP请求。
 
-![HTTP协议的连接与请求](http://md.ws65535.top/xsj/2018_7_9_2018-07-09_174028.jpg)
+![HTTP协议的连接与请求](http://md.ws1031.cn/xsj/2018_7_9_2018-07-09_174028.jpg)
  
 ### 1. 连接频率限制
 
@@ -140,7 +140,7 @@ server {
 
 * 当客户端通过代理访问时，nginx的remote_addr获取的是代理的IP
 
-![当客户端通过代理访问时，nginx的remote_addr获取的是代理的IP](http://md.ws65535.top/xsj/2018_7_9_2018-07-09_190309.jpg)
+![当客户端通过代理访问时，nginx的remote_addr获取的是代理的IP](http://md.ws1031.cn/xsj/2018_7_9_2018-07-09_190309.jpg)
 
 * http_x_forwarded_for
 
@@ -149,7 +149,7 @@ server {
 `remote_addr` 获取的是直接和服务端建立连接的客户端IP。
 `http_x_forwarded_for` 可以记录客户端及所有中间代理的IP
 
-![http_x_forwarded_for和remote_addr区别](http://md.ws65535.top/xsj/2018_7_9_2018-07-09_190639.jpg)
+![http_x_forwarded_for和remote_addr区别](http://md.ws1031.cn/xsj/2018_7_9_2018-07-09_190639.jpg)
 
 ### 2. 基于用户的登录认证
 
@@ -204,7 +204,7 @@ server {
 * 修改后重新载入配置文件`nginx -s reload`
 * 使用浏览器访问 `http://192.168.33.88/index.html`
 
-![基于用户的登录认证](http://md.ws65535.top/xsj/2018_7_9_2018-07-09_194739.jpg)
+![基于用户的登录认证](http://md.ws1031.cn/xsj/2018_7_9_2018-07-09_194739.jpg)
 
 输入正确的用户名和密码，即可正常访问。
 

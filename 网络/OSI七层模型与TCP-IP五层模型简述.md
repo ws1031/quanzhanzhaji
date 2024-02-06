@@ -1,7 +1,7 @@
 OSI七层模型与TCP/IP五层模型简述
 ---
 
-![OSI七层模型总览图](http://md.ws65535.top/xsj/2019_4_29_OSI七层模型总览图.gif)
+![OSI七层模型总览图](http://md.ws1031.cn/xsj/2019_4_29_OSI七层模型总览图.gif)
 
 #### **应用层**
 
@@ -84,11 +84,11 @@ OSI参考模型中最靠近用户的一层，是为计算机用户提供应用�
 
 #### **OSI七层模型通信流程**
 
-![OSI七层模型通信流程](http://md.ws65535.top/xsj/2019_4_29_OSI七层模型通信流程.png)
+![OSI七层模型通信流程](http://md.ws1031.cn/xsj/2019_4_29_OSI七层模型通信流程.png)
 
 #### **TCP/IP五层协议和OSI的七层协议对应关系**
 
-![TCP/IP五层协议和OSI的七层协议对应关系](http://md.ws65535.top/xsj/2019_4_29_OSI七层模型与TCP-IP五层模型对应关系.png)
+![TCP/IP五层协议和OSI的七层协议对应关系](http://md.ws1031.cn/xsj/2019_4_29_OSI七层模型与TCP-IP五层模型对应关系.png)
 
 
 参考：

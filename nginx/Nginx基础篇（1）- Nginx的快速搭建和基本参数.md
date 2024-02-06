@@ -59,9 +59,9 @@ CPU亲和性（affinity）是一种把CPU核心和Nginx工作进程绑定方式�
 
 sendfile可以让Nginx在传输文件时直接在磁盘和tcp socket之间传输数据。如果这个参数不开启，会先在用户空间（Nginx进程空间）申请一个buffer，用read函数把数据从磁盘读到cache，再从cache读取到用户空间的buffer，再用write函数把数据从用户空间的buffer写入到内核的buffer，最后到tcp socket。
 
-![一般web server传输数据方式](http://md.ws65535.top/xsj/2018_7_11_2018-07-11_170606.jpg)
+![一般web server传输数据方式](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_170606.jpg)
 
-![sendfile](http://md.ws65535.top/xsj/2018_7_11_2018-07-11_170543.jpg)
+![sendfile](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_170543.jpg)
 
 
 ## 三、Nginx的快速搭建和基本参数（CentOS7）

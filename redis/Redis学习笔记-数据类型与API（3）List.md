@@ -7,9 +7,9 @@ Redis学习笔记-数据类型与API（3）List
 * 可以重复
 * 左右两边插入弹出
 
-![List](http://md.ws65535.top/xsj/2018_7_9_1180112327-5aa749aaa1f16_articlex.jpg)
+![List](http://md.ws1031.cn/xsj/2018_7_9_1180112327-5aa749aaa1f16_articlex.jpg)
 
-![List](http://md.ws65535.top/xsj/2018_7_9_2984455238-5aa749b5b8ad2_articlex.jpg)
+![List](http://md.ws1031.cn/xsj/2018_7_9_2984455238-5aa749b5b8ad2_articlex.jpg)
 
 ### 常用命令
 

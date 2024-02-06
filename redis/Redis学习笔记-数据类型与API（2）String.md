@@ -108,4 +108,4 @@ OK
 ### 3. 实战
 
 #### 分布式ID生成器
-![Redis分布式ID生成器](http://md.ws65535.top/xsj/2018_7_6_Redis_Distributed_ID_generator.jpg)
+![Redis分布式ID生成器](http://md.ws1031.cn/xsj/2018_7_6_Redis_Distributed_ID_generator.jpg)
