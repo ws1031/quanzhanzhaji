@@ -9,7 +9,7 @@ WEB页面实现等比例缩放自适应 - 通过 rem 和 vw 实现
 
 #### **浏览器支持：[Caniuse](https://caniuse.com/#search=rem)**
 
-![rem浏览器支持](http://md.ws1031.cn/xsj/2019_5_21_rem浏览器支持.jpg)
+![rem浏览器支持](http://md.s1031.cn/xsj/2019_5_21_rem浏览器支持.jpg)
 
 #### **示例**
 
@@ -51,7 +51,7 @@ div {
 
 #### **浏览器支持：[Caniuse](https://caniuse.com/#search=vw)**
 
-![rvw浏览器支持](http://md.ws1031.cn/xsj/2019_5_21_vw浏览器支持.jpg)
+![rvw浏览器支持](http://md.s1031.cn/xsj/2019_5_21_vw浏览器支持.jpg)
 
 * Opera Mini不支持该属性
 

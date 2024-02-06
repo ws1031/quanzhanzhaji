@@ -1,6 +1,6 @@
 ## 一、静态资源web服务
 
-![静态资源web服务](http://md.ws1031.cn/xsj/2018_7_10_2018-07-10_182440.jpg)
+![静态资源web服务](http://md.s1031.cn/xsj/2018_7_10_2018-07-10_182440.jpg)
 
 ### 1. 静态资源类型
 
@@ -13,7 +13,7 @@
 
 ### 2. 静态资源服务场景-CDN
 
-![静态资源服务场景-CDN](http://md.ws1031.cn/xsj/2018_7_10_2018-07-10_184108.jpg)
+![静态资源服务场景-CDN](http://md.s1031.cn/xsj/2018_7_10_2018-07-10_184108.jpg)
 
 
 ## 二、静态资源核心配置
@@ -23,9 +23,9 @@
 sendfile 是一种高效传输文件的模式.
 sendfile设置为on表示启动高效传输文件的模式。sendfile可以让Nginx在传输文件时直接在磁盘和tcp socket之间传输数据。如果这个参数不开启，会先在用户空间（Nginx进程空间）申请一个buffer，用read函数把数据从磁盘读到cache，再从cache读取到用户空间的buffer，再用write函数把数据从用户空间的buffer写入到内核的buffer，最后到tcp socket。开启这个参数后可以让数据不用经过用户buffer。
 
-![未开启sendfile](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_170606.jpg)
+![未开启sendfile](http://md.s1031.cn/xsj/2018_7_11_2018-07-11_170606.jpg)
 
-![开启sendfile](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_170543.jpg)
+![开启sendfile](http://md.s1031.cn/xsj/2018_7_11_2018-07-11_170543.jpg)
 
 #### 语法
 
@@ -63,7 +63,7 @@ tcp_nodelay选项和tcp_nopush正好相反，数据包不等待，实时发送�
 
 开启压缩，可以加快资源响应速度，同时节省网络带宽资源。
 
-![压缩和解压缩](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_174549.jpg)
+![压缩和解压缩](http://md.s1031.cn/xsj/2018_7_11_2018-07-11_174549.jpg)
 
 #### [ngx_http_gzip_module](http://nginx.org/en/docs/http/ngx_http_gzip_module.html)
 
@@ -158,7 +158,7 @@ Content-Encoding: gzip
 
 #### **5. 通过浏览器访问 192.168.33.88/a.txt，使用开发者工具查看请求文件的大小**
 
-![请求文件信息](http://md.ws1031.cn/xsj/2018_7_11_2018-07-11_190500.jpg)
+![请求文件信息](http://md.s1031.cn/xsj/2018_7_11_2018-07-11_190500.jpg)
 
 可见，经过gzip压缩，请求文件由558K被压缩到148K，压缩比例很高。
 

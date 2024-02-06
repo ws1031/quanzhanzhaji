@@ -520,7 +520,7 @@ USAGE  | 无访问权限
 
 以 `SELECT id,name FROM test.t4 where status = 'deleted';` 为例。
 
-![MySQL性能调优与架构设计-权限控制流程图](http://md.ws1031.cn/xsj/2019_6_29_MySQL性能调优与架构设计-权限控制流程图.jpg)
+![MySQL性能调优与架构设计-权限控制流程图](http://md.s1031.cn/xsj/2019_6_29_MySQL性能调优与架构设计-权限控制流程图.jpg)
 
 
 ---

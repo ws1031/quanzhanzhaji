@@ -14,7 +14,7 @@ Nginx + Lets'encrypt 实现HTTPS访问七牛资源
 
 1. 首先声明，使用这种方法相当于主动放弃了七牛云存储的CDN优势，只适合访问量不高的个人和小公司。
 2. 要有一个域名。
-3. 七牛云空间应该已经绑定了自定义的域名，不懂如何绑定的请查看前一篇文章。笔者绑定的域名是 md.ws1031.cn。
+3. 七牛云空间应该已经绑定了自定义的域名，不懂如何绑定的请查看前一篇文章。笔者绑定的域名是 md.s1031.cn。
 4. 有一台带公网IP的Linux服务器。笔者服务器IP为 54.191.48.61，Linux环境为 ubuntu14.04。其他发行版原理相同，只不过软件安装方式和目录结构略有不同。
 
 ## 二、安装 Nginx
@@ -69,7 +69,7 @@ Commercial support is available at
 </html>
 ```
 
-## 三、配置Nginx反向代理，将所有访问 `qiniu-ssl.ws65535.top` 的请求全部转发到 `md.ws1031.cn`
+## 三、配置Nginx反向代理，将所有访问 `qiniu-ssl.ws65535.top` 的请求全部转发到 `md.s1031.cn`
 
 ### 1. **sudo vim /etc/nginx/sites-enabled/qiniu-ssl**
 ```
@@ -77,7 +77,7 @@ server {
     server_name qiniu-ssl.ws65535.top;
 
     location / {
-        proxy_pass http://md.ws1031.cn;
+        proxy_pass http://md.s1031.cn;
     }
 }
 ```
@@ -85,13 +85,13 @@ server {
 
 ### 2. 登录域名服务商（这里以阿里云为例）的控制台，添加域名解析。
 记录类型为 A，主机记录为 qiniu-ssl.ws65535.top，服务器IP为 54.191.48.61
-![](http://md.ws1031.cn/xsj/2018_8_6_2018-08-06_195839.jpg)
+![](http://md.s1031.cn/xsj/2018_8_6_2018-08-06_195839.jpg)
 
-### 3. 此时可以使用 qiniu-ssl.ws65535.top 替换 md.ws1031.cn 来访问七牛空间资源
+### 3. 此时可以使用 qiniu-ssl.ws65535.top 替换 md.s1031.cn 来访问七牛空间资源
 例如
 `http://qiniu-ssl.ws65535.top/xsj/2018_8_6_2018-08-06_181854.jpg`
 可以访问到下面的资源
-`http://md.ws1031.cn/xsj/2018_8_6_2018-08-06_181854.jpg`
+`http://md.s1031.cn/xsj/2018_8_6_2018-08-06_181854.jpg`
 
 ## 四、安装 HTTPS 证书 【[参考](https://certbot.eff.org/lets-encrypt/ubuntutrusty-nginx)】
 
@@ -170,7 +170,7 @@ server {
     server_name qiniu-ssl.ws65535.top;
 
     location / {
-        proxy_pass http://md.ws1031.cn;
+        proxy_pass http://md.s1031.cn;
     }
 
 

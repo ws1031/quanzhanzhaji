@@ -6,3 +6,6 @@
 .*.un~
 *.vim
 *.swp
+
+
+.DS_Store
